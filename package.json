@@ -1,0 +1,67 @@
+{
+  "name": "mongoose-history",
+  "version": "0.8.0",
+  "description": "Keeps a history of all changes of a document.",
+  "main": "lib/mongoose-history.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nassor/mongoose-history"
+  },
+  "keywords": [
+    "mongoose",
+    "history",
+    "safe",
+    "cqrs",
+    "backup"
+  ],
+  "author": {
+    "name": "Nassor Paulino da Silva",
+    "email": "nassor@gmail.com",
+    "url": "https://github.com/nassor"
+  },
+  "contributors": [
+    {
+      "name": "Christopher Britz",
+      "email": "britztopher@gmail.com",
+      "url": "https://github.com/britztopher"
+    },
+    {
+      "name": "Allan Nienhuis",
+      "url": "https://github.com/allannienhuis"
+    },
+    {
+      "name": "João Manoel Pampanini Filho",
+      "email": "joao.bontorin@gmail.com",
+      "url": "https://github.com/jmpf13"
+    },
+    {
+      "name": "Sebastien Vaucouleur",
+      "url": "http://vaucouleur.com"
+    },
+    {
+      "name": "Victor Parmar",
+      "url": "https://smalldata.tech"
+    }
+  ],
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/nassor/mongoose-history/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "async": "^2.6.0",
+    "mongoose": "^5.0.0",
+    "mocha": "2.4.5",
+    "should": "8.2.2"
+  },
+  "peerDependencies": {
+    "async": "^2.0.0",
+    "mongoose": "^4.0.0 || >=5.0.0"
+  }
+}
